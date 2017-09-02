@@ -1,0 +1,35 @@
+<VirtualHost *:80>
+ServerAdmin root@yahoo.com
+DocumentRoot /var/www/html
+ServerName www.yahoo.com
+DirectoryIndex yahoo.html
+</VirtualHost>
+
+<VirtualHost *:80>
+ServerAdmin root@google.com
+DocumentRoot /var/www/html
+ServerName www.google.com
+DirectoryIndex google.html
+</VirtualHost>
+
+<VirtualHost *:80>
+ServerAdmin root@maha.com
+DocumentRoot /var/www/html
+ServerName www.maha.com
+DirectoryIndex maha.html
+</VirtualHost>
+
+
+<VirtualHost  192.168.74.146:80>
+ServerAdmin root@yahoo.com
+DocumentRoot /var/www/html
+ServerName www.yahoo.com
+DirectoryIndex yahoo.html
+</VirtualHost>
+
+<VirtualHost  *:8000>
+ServerAdmin root@yahoo.com
+DocumentRoot /var/www/html
+ServerName www.yahoo.com
+DirectoryIndex yahoo.html
+</VirtualHost>
